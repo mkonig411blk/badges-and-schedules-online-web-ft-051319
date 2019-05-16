@@ -24,6 +24,8 @@ def printer(attendees)
  rooms = assign_rooms(attendees)
  badges.each do |string|
    puts badges
+badges.each do |string|
+   puts badges
    puts rooms
 end
 end
